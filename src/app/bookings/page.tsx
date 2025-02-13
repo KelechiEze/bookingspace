@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { FaTrash } from "react-icons/fa";
 import { useFlutterwave, closePaymentModal } from "flutterwave-react-v3";
-import { db } from "@/firebase";
+import { db } from "./firebase";
 import { collection, addDoc } from "firebase/firestore";
 import Image from "next/image";
 import "./BookingSummary.css"; // Import regular CSS file
